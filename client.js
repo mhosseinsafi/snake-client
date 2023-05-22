@@ -21,18 +21,18 @@ const connect = function() {
 
     // sending name
     conn.write("Name: MHS");
-    setInterval(() => {
-      conn.write("Move: up");
-    }, 50);
-    setInterval(() => {
-      conn.write("Move: down");
-    }, 100);
-    setInterval(() => {
-      conn.write("Move: left");
-    }, 150);
-    setInterval(() => {
-      conn.write("Move: right");
-    }, 200);
+  //   setInterval(() => {
+  //     conn.write("Move: up");
+  //   }, 50);
+  //   setInterval(() => {
+  //     conn.write("Move: down");
+  //   }, 100);
+  //   setInterval(() => {
+  //     conn.write("Move: left");
+  //   }, 150);
+  //   setInterval(() => {
+  //     conn.write("Move: right");
+  //   }, 200);
           
   });
 
