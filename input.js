@@ -30,7 +30,6 @@ const setupInput = (conn) => {
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
   stdin.resume();
-  // stdin.on("data", (key) => handleUserInput(key));
   stdin.on("data", handleUserInput);
   return stdin;
 };
